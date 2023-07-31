@@ -53,7 +53,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [ionicon](https://www.example.com](https://ionic.io/ionicons) - For the icons used in the footer .
+- [ionicon](https://ionic.io/ionicons) - For the icons used in the footer .
 - [Vercel](https://vercel.com/dashboard) - For deploying the website .
 
 
