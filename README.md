@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -54,6 +54,9 @@ Users should be able to:
 ### Useful resources
 
 - [ionicon]([https://www.example.com](https://ionic.io/ionicons)) - For the icons used in the footer .
+- [Vercel](https://vercel.com/dashboard)) - For deploying the website .
+
+
 
 
 
