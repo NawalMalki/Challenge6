@@ -17,7 +17,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     background-color: var(--Violet);
     background-image: url(./images/bg-desktop.svg);
-    
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -51,7 +51,7 @@ section .item1 img{
 .item2{
     color: white;
     margin-right: 150px;
-    margin-left: 40px;
+    margin-left: 60px;
     margin-top: 70px;
     
 }
@@ -81,6 +81,7 @@ button:hover{
 
 footer{
     margin-top: 40px;
+    padding: 10px;
 }
 
 footer .righting {
@@ -125,6 +126,69 @@ footer .righting {
 
 /* Responsive design */
 
+@media(max-width:875px){
+    section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.item1{
+        margin-top: 2px;
+    }
+    section .item1 img{
+        width: 500px;
+    }
+
+    .item2{
+        margin-top: 10px;
+        margin-right: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .item2 h1{
+        font-size: 28px;
+        
+    }
+
+}
+
+
+@media(max-width:640px){
+
+    body{
+        height: 100% ; 
+    }
+
+    header img{
+        height: 35px;
+    }
+    section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section .item1 img{
+        width: 400px;
+    }
+
+
+    section .item2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        padding: 20px;
+        text-align: center;
+    }
+
+
+    footer{
+        margin-top: 0;
+        padding-bottom: 10px;
+        
+    }
+}
 @media(max-width:375px){
     section{
         display: flex;
@@ -170,5 +234,7 @@ width: 300px;
         
     }
 
+
     
 }
+    
